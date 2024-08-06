@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <img src="uber-logo.webp">
+        <div class="nav-section">
+            <a>Log in</a>
+            <a class="sign-in">Sign up</a>
+            <i class='bx bx-menu' onclick="open_menu()" id="open"></i>
+            <i class='bx bx-x' style="display: none;" id="close" onclick="close_menu()"></i>
+        </div>
+        
+    </header>
+
+    <div class="hidden-menu" id="hidden-menu">
+        <a>Ride</a>
+        <a>Drive</a>
+        <a>Business</a>
+        <a>About</a>
+        <a>Help</a>
+        
+    </div>
+
+    <div class="location-section">
+        <div class="left-section">
+            <h1>Go anywhere with Uber</h1>
+            <h4>Request a ride, hop in,and go</h4>
+            <div class="inputs source">
+                <input type="text" placeholder="Enter location">
+                <i class='bx bx-current-location'></i>
+                <!-- <i class='bx bxl-telegram' id="telegram"></i> -->
+            </div>
+
+            <div class="inputs dest">
+                <input type="text" placeholder="Enter destination">
+                <i class='bx bx-current-location'></i>
+            </div>
+
+            <button>See prices</button>
+        </div>
+
+        <img src="location-section.webp">
+    </div>
+
+    <h2>Suggestions</h2>
+
+    <div class="suggestion-section">
+        <!-- <h2>Hi</h2> -->
+        <div class="suggestion-box ride">
+            <div>
+                <span>Ride</span>
+                <p>Go anwhere with Uber.Request a ride, hop in, and go</p>
+                <button>Details</button>
+            </div>
+            <img src="ride.png">
+        </div>
+        
+        
+
+        <div class="suggestion-box package">
+            <div >
+                <span>Package</span>
+                <p>Uber Connect makes same-day delivery easies than ever.</p>
+                <button>Details</button>
+            </div>
+            <img src="connect.png">
+        </div>
+
+        <div class="suggestion-box reserve">
+            <div>
+                <span>Reserve</span>
+                <p>Reserve your ride in advance so you can relax on the day of your trip.</p>
+                <button>Details</button>
+            </div>
+            <img src="reserve.png" style="height: 160px;">
+        </div>
+
+
+    </div>
+
+    <div class="middle-section">
+
+        <div class="middle-card">
+            <img src="1.webp" >
+            <div>
+                <h1>Drive when you want, make what you need</h1>
+                <p>Make money on your schedule with deliveries or rides—or both. You can use your own car or choose a rental through Uber.</p>
+                <div>
+                    <button>Get Started</button>
+                    <a>Already have an account? Sign in</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="middle-card row-reverse">
+            <img src="2.webp" >
+            <div>
+                <h1>The Uber you know, reimagined for business</h1>
+                <p>Uber for Business is a platform for managing global rides and meals, and local deliveries, for companies of any size.</p>
+                <div class="aligning-buttons-in-middle-card">
+                    <button>Get Started</button>
+                    <a>Check out our solutions</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="middle-card">
+            <img src="3.webp" >
+            <div>
+                <h1>Make money by renting out your car</h1>
+                <p>Connect with thousands of drivers and earn more per week with Uber’s free fleet management tools.</p>
+                <div>
+                    <button>Get Started</button>
+                    <!-- <a>Check out our solutions</a> -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+
+    <div class="download-options">
+        <h2>It's easier in the apps</h2>
+        <div class="download-inner-div">
+            <img src="Rider-App-Icon_iOS.svg">
+            <p>Download the Uber app</p>
+            <!-- <img src="arrow.png" class="arrow"> -->
+        </div>
+
+        <div class="download-inner-div">
+            <img src="Driver-App-Icon_iOS.svg">
+            <p>Download the Uber app</p>
+            <!-- <img src="arrow.png" class="arrow"> -->
+        </div>
+
+
+    </div>
+
+    <div class="before-footer">
+        <h2 class="white-h2">Uber</h2>
+        <!-- <span>Visit Help Center</span> -->
+    </div>
+
+    <footer>
+        
+
+        <div class="bottom company">
+            <h2>Company</h2>
+            
+                <a href="">Abouts us</a>
+                <a href="">Our offerings</a>
+                <a href="">Newsroom</a>
+                <a href="">Investors</a>
+                <a href="">Blog</a>
+                <a href="">Careers</a>
+                <a href="">Uber AI</a>
+                <a href="">Gift cards</a>
+            
+        </div>
+
+        <div class="bottom product">
+            <h2>Products</h2>
+            
+                <a href="">Ride</a>
+                <a href="">Drive</a>
+                <a href="">Deliver</a>
+                <a href="">Eat</a>
+                <a href="">Uber for Business</a>
+                <a href="">Uber Freight</a>
+            
+        </div>
+
+        <div class="bottom global">
+            <h2>Global citizenship</h2>
+            
+                <a href="">Safety</a>
+                <a href="">Diversity and Inclusion</a>
+                <a href="">Sustainability</a>            
+        </div>
+
+        <div class="bottom">
+            <h2>Global </h2>
+            
+                <a href="">Safety</a>
+                <a href="">Diversity and Inclusion</a>
+                <a href="">Sustainability</a>            
+        </div>
+
+        <div class="links">
+                <a><i class='bx bxl-facebook-square'></i></a>
+                <a><i class='bx bxl-twitter'></i></a>
+                <a><i class='bx bxl-youtube' ></i></a>
+                <a><i class='bx bxl-linkedin-square' ></i></a>
+                <a><i class='bx bxl-instagram' ></i></a>
+        </div>
+
+        <p>&copy 2024 Uber Technologies Inc.</p>
+        </footer>
+
+
+    <!-- END OF BODY -->
+    <script src="index.js"></script>
+</body>
+</html>
